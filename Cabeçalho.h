@@ -1,6 +1,6 @@
 #ifndef CABEÇALHO_H
-#define C
+#define CABEÇALHO_H
 
-int chk(int x, int b);
+int func_val(int x, int b);
 
 #endif 
