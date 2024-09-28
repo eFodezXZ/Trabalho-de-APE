@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
-#include "Cabecalho.h"
+#include "Cabeçalho.h"
 
 int main() {
     int quant, b, x, decc, i, k; // quant = número de casos, b = variavel, x = posição, decc = valor decimal, i = Indice da string, k = contador de casos
