@@ -22,7 +22,7 @@ int main()
 
     	for(i = 0; i < strlen(hexmensagem); i+= 2){
     	x = i / 2 + 1;
-    	int veri = chk(x, b);
+    	int veri = func_val(x, b);
     	if(veri != 0){
     	decode[sizeof(decode) - 1] = '\0';              
 		strncpy(decode, hexmensagem + i, 2);                        
