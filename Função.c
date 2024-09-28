@@ -1,6 +1,6 @@
 #include "Cabeçalho.h"
 
-int chk(int x, int b){
+int func_val(int x, int b){
     //Uso do tipo de variavel double pois tem um limite maior e evita que ocorra um overflow.
  	double a0, a1, a2, a3, a4, a5, a6, a7;
  	
