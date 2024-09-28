@@ -27,7 +27,7 @@ int main() {
             x = i / 2 + 1; // Determinar a posição x, começaando em 1
             int veri = func_val(x, b); // Chamar a função para validar o caractere
 
-            if(veri != 0) { // Se o resultado da função for diferente de 0, o caractere Ã© vÃ¡lido
+            if(veri != 0) { // Se o resultado da função for diferente de 0, o caractere é válido
                 decode[2] = '\0'; // Terminar a string com null character
                 strncpy(decode, hexmensagem + i, 2); // Copiar 2 caracteres da string hexadecimal
                 decc = strtol(decode, &point, 16); // Converter o valor hexadecimal para decimal
@@ -39,7 +39,7 @@ int main() {
                 printf("%c", decc); // Imprimir o caractere decodificado
             }
         }
-        printf("\n"); // Nova linha apÃ³s cada mensagem decodificada
+        printf("\n"); // Nova linha após cada mensagem decodificada
     }
 
     return 0;
