@@ -10,10 +10,10 @@ int main()
     char hexmensagem[101];
     char decode[3]; 
     char* point;
-    printf("Digite quantas mensagens vou decodificar\n:");
+    printf("Digite quantas mensagens vou decodificar: \n");
     scanf("%d", &quant);
     for(k = quant; k > 0; k--){
-    	printf("\nDigite a mensagem a ser decodificada:\n");
+    	printf("\nDigite a mensagem a ser decodificada: \n");
     	//fgets(hexmensagem, 101, stdin); 
     	scanf("%100s", hexmensagem);
 
